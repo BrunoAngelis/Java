@@ -1,4 +1,4 @@
-package br.com.introducao;
+package br.com.introducao.controlefluxo;
 
 public class ControleFluxo1 {
     public static void main(String[] args) {

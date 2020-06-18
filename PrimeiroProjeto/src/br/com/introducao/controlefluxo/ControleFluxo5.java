@@ -1,18 +1,17 @@
-package br.com.introducao;
+package br.com.introducao.controlefluxo;
 
-public class ExercicioControleFluxo3 {
+public class ControleFluxo5 {
     public static void main(String[] args) {
+
         double valorCarro = 30000;
 
-        for (int parcela = 1; parcela < valorCarro; parcela++) {
+        for (int parcela = 1; parcela <= valorCarro; parcela++) {
             double valorParcela = valorCarro / parcela;
             if (valorParcela < 1000) {
                 break;
             }
-            System.out.println("Parcela " + parcela + " Valor " + valorParcela);
+            System.out.println("Parcela " + parcela + " R$ " + valorParcela);
         }
-
 
     }
 }
-
