@@ -1,3 +1,5 @@
+package br.com.introducao;
+
 public class ExercicioControleDeFluxo {
     public static void main(String[] args) {
         double salario = 900;

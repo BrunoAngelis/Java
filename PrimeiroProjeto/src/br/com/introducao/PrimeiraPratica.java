@@ -1,3 +1,5 @@
+package br.com.introducao;
+
 public class PrimeiraPratica {
     public static void main(String[] args) {
         String nome = "Bruno Garcia";

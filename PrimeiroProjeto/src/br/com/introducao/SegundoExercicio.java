@@ -1,3 +1,5 @@
+package br.com.introducao;
+
 public class SegundoExercicio {
     public static void main(String[] args) {
         float salario = 1800;

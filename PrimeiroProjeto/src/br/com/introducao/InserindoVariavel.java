@@ -1,3 +1,5 @@
+package br.com.introducao;
+
 public class InserindoVariavel {
     public static void main(String[]args){
 

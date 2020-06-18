@@ -1,3 +1,5 @@
+package br.com.introducao;
+
 public class ExercicioControleFluxo2 {
     public static void main(String[] args) {
         byte dia = 2;
