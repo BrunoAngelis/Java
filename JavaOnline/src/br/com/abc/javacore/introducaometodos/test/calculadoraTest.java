@@ -7,6 +7,12 @@ public class calculadoraTest {
         Calculadora calculadora = new Calculadora();
 
         calculadora.somaDoisNumeros();
+        System.out.println("--");
+        calculadora.subtraiDoisNumeros();
+        System.out.println("--");
+        calculadora.multiplicaDoisNumeros(5,5);
+        System.out.println("--");
+        calculadora.divideDoisNumeros(30,2);
     }
 }
 
