@@ -12,7 +12,13 @@ public class calculadoraTest {
         System.out.println("--");
         calculadora.multiplicaDoisNumeros(5,5);
         System.out.println("--");
-        calculadora.divideDoisNumeros(30,2);
-    }
+        double vArmazena = calculadora.divideDoisNumeros(30,0);
+        System.out.println(vArmazena);
+        System.out.println("--");
+        calculadora.imprimeDoisNumerosDivididos(10,2);
+
+
+        calculadora.somaArray(1,2,3,4,5);
+        }
 }
 

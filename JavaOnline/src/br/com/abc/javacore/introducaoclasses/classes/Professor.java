@@ -8,10 +8,10 @@ public class Professor {
 
     public void exibirProfessor(){
         System.out.println("Professor Cadastrado:");
-        System.out.println("Nome "+nome);
-        System.out.println("Matricula "+matricula);
-        System.out.println("RG "+rg);
-        System.out.println("CPF "+cpf);
+        System.out.println("Nome "+this.nome);
+        System.out.println("Matricula "+this.matricula);
+        System.out.println("RG "+this.rg);
+        System.out.println("CPF "+this.cpf);
     }
 
 
