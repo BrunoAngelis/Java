@@ -6,8 +6,8 @@ public class Cliente {
     private int [] parcelas ;
 
     {
-        parcelas = new int [100];
-        for (int i = 1; i <= 100; i++){
+        parcelas = new int [90];
+        for (int i = 1; i <= 90; i++){
             parcelas [i-1] = i;
         }
     }

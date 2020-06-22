@@ -4,21 +4,20 @@ import br.com.abc.javacore.introducaometodos.classes.Calculadora;
 
 public class calculadoraTest {
     public static void main(String[] args) {
-        Calculadora calculadora = new Calculadora();
 
-        calculadora.somaDoisNumeros();
+        Calculadora.somaDoisNumeros();
         System.out.println("--");
-        calculadora.subtraiDoisNumeros();
+        Calculadora.subtraiDoisNumeros();
         System.out.println("--");
-        calculadora.multiplicaDoisNumeros(5,5);
+        Calculadora.multiplicaDoisNumeros(5,5);
         System.out.println("--");
-        double vArmazena = calculadora.divideDoisNumeros(30,0);
+        double vArmazena = Calculadora.divideDoisNumeros(30,0);
         System.out.println(vArmazena);
         System.out.println("--");
-        calculadora.imprimeDoisNumerosDivididos(10,2);
+        Calculadora.imprimeDoisNumerosDivididos(10,2);
 
 
-        calculadora.somaArray(1,2,3,4,5);
+        Calculadora.somaArray(1,2,3,4,5);
         }
 }
 
