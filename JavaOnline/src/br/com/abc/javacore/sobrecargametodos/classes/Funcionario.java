@@ -7,8 +7,8 @@ public class Funcionario {
     private double salario;
     private String rg;
 
-    public void exibeDados(){
 
+    public void exibeDados(){
         System.out.println("Nome: " +this.nome);
         System.out.println("CPF: " +this.cpf);
         System.out.println("Salario: " +this.salario);
