@@ -1,11 +1,11 @@
 package br.com.abc.javacore.heranca.classes;
 
-public class Pessoa {
-    private String nome;
-    private String cpf;
-    private Endereco endereco;
+public class  Pessoa {
+    protected String nome;
+    protected String cpf;
+    protected Endereco endereco;
 
-    public void exibePessoa(){
+    public void exibeDados(){
         System.out.println("Nome: "+this.nome);
         System.out.println("CPF: "+this.cpf);
         if (endereco != null) {

@@ -15,13 +15,14 @@ public class HerencaTest {
         end.setRua("Rua do mato");
         end.setBairro("Mato Grosso");
         p.setEndereco(end);
-        p.exibePessoa();
+        p.exibeDados();
+
         System.out.println("--------------");
         f.setNome("Bruno");
         f.setCpf("111.222.333-44");
         f.setSalario(4000);
         f.setEndereco(end);
-        f.exibePessoa();
+        f.exibeDados();
 
 
     }
