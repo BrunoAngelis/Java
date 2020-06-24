@@ -1,13 +1,20 @@
 package br.com.abc.javacore.heranca.classes;
 
-public class  Pessoa {
+public class Pessoa {
     protected String nome;
     protected String cpf;
     protected Endereco endereco;
 
-    public void exibeDados(){
-        System.out.println("Nome: "+this.nome);
-        System.out.println("CPF: "+this.cpf);
+
+    public Pessoa(String nome, String cpf) {
+        System.out.println("Dentro do Construto de pessoa");
+        this.nome = nome;
+        this.cpf = cpf;
+    }
+
+    public void  exibeDados() {
+        System.out.println("Nome: " + this.nome);
+        System.out.println("CPF: " + this.cpf);
         if (endereco != null) {
             System.out.println("Endereço: " + " Rua: " + this.endereco.getRua() + " Bairro: " + this.endereco.getBairro());
             return;

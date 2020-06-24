@@ -1,17 +1,21 @@
 package br.com.abc.javacore.heranca.classes;
 
-public class Funcionario extends Pessoa{
+public class Funcionario extends Pessoa {
     private double salario;
 
-    public void exibeDados(){
+    public Funcionario(String nome, String cpf) {
+        super(nome, cpf);
+    }
+
+    public void exibeDados() {
         super.exibeDados();
-        System.out.println("Salario: "+this.salario);
+        System.out.println("Salario: " + this.salario);
         exibeReciboPagamento();
 
     }
 
-    public void exibeReciboPagamento(){
-        System.out.println("Eu "+super.nome +" rebeci o pagamento de "+this.salario);
+    public void exibeReciboPagamento() {
+        System.out.println("Eu " + super.nome + " rebeci o pagamento de " + this.salario);
     }
 
 
